@@ -42,7 +42,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, [direction, speed, containerRef, scrollerRef]);
+  }, [addAnimation,direction, speed, containerRef, scrollerRef]);
 
   const getDirection = () => {
     if (containerRef.current) {
